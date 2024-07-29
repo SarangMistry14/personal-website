@@ -1,0 +1,51 @@
+{
+    "skills": [
+        {
+            "id": 1,
+            "src": "./img/product-chain-1.png",
+            "title": "FrontEnd",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis voluptatum rem beatae eaque, repudiandae animi quidem adipisci mollitia nemo aliquam, reiciendis, reprehenderit dolorem consequuntur placeat voluptate dignissimos corrupti sint harum?"
+        },
+        {
+            "id": 2,
+            "src": "./img/product-chain-1.png",
+            "title": "FrontEnd",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis voluptatum rem beatae eaque, repudiandae animi quidem adipisci mollitia nemo aliquam, reiciendis, reprehenderit dolorem consequuntur placeat voluptate dignissimos corrupti sint harum?"
+        },
+        {
+            "id": 3,
+            "src": "./img/product-chain-1.png",
+            "title": "FrontEnd",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis voluptatum rem beatae eaque, repudiandae animi quidem adipisci mollitia nemo aliquam, reiciendis, reprehenderit dolorem consequuntur placeat voluptate dignissimos corrupti sint harum?"
+        },
+        {
+            "id": 4,
+            "src": "./img/product-chain-1.png",
+            "title": "FrontEnd",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis voluptatum rem beatae eaque, repudiandae animi quidem adipisci mollitia nemo aliquam, reiciendis, reprehenderit dolorem consequuntur placeat voluptate dignissimos corrupti sint harum?"
+        }
+    ],
+    "portfolio": [
+        {
+            "id": 1,
+            "src": "./img/placeholder-image-1.png",
+            "title": "FrontEnd",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis voluptatum rem beatae eaque, repudiandae animi quidem adipisci mollitia nemo aliquam, reiciendis, reprehenderit dolorem consequuntur placeat voluptate dignissimos corrupti sint harum?",
+            "link":"View in GitHub"
+        },
+        {
+            "id": 2,
+            "src": "./img/placeholder-image-1.png",
+            "title": "FrontEnd",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis voluptatum rem beatae eaque, repudiandae animi quidem adipisci mollitia nemo aliquam, reiciendis, reprehenderit dolorem consequuntur placeat voluptate dignissimos corrupti sint harum?",
+            "link":"View in GitHub"
+        },
+        {
+            "id": 3,
+            "src": "./img/placeholder-image-1.png",
+            "title": "FrontEnd",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis voluptatum rem beatae eaque, repudiandae animi quidem adipisci mollitia nemo aliquam, reiciendis, reprehenderit dolorem consequuntur placeat voluptate dignissimos corrupti sint harum?",
+            "link":"View in GitHub"
+        }
+    ]
+}
