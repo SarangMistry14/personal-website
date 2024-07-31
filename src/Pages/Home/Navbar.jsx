@@ -39,7 +39,7 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-        <img src="./img/logo.png" alt="logo" />
+        <img className="navbar-logo" src="./img/logo.png" alt="logo" />
       </div>
       <a
         href=""
@@ -66,23 +66,9 @@ function Navbar() {
             >
               Home
             </Link>
+            {/* About me */}
           </li>
-          {/* Portfolio */}
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar-active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="MyPortfolio"
-              className="navbar-content"
-            >
-              Portfolio
-            </Link>
-          </li>
-          {/* About me */}
+
           <li>
             <Link
               onClick={closeMenu}
@@ -97,7 +83,36 @@ function Navbar() {
               About Me
             </Link>
           </li>
-          {/* Testiminoals  */}
+          {/* Portfolio */}
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar-active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="mySkills"
+              className="navbar-content"
+            >
+              MySkills
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar-active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="MyPortfolio"
+              className="navbar-content"
+            >
+              Portfolio
+            </Link>
+          </li>
+          {/* Testiminoals 
           <li>
             <Link
               onClick={closeMenu}
@@ -111,7 +126,7 @@ function Navbar() {
             >
               Testiminoals
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
       <Link
@@ -121,7 +136,7 @@ function Navbar() {
         smooth={true}
         offset={-70}
         duration={500}
-        to="Contackt"
+        to="Contact"
         className="btn btn-outline-primary"
       >
         Contact Me

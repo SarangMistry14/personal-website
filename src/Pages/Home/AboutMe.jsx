@@ -1,5 +1,5 @@
 import React from "react";
-
+import data from "../../data/index.json";
 function AboutMe() {
   return (
     <section className="about-section" id="AboutMe">
@@ -11,15 +11,7 @@ function AboutMe() {
           <p className="section-title">About</p>
           <h1 className="skills-section-heading">About me</h1>
           <p className="hero-section-description">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Dignissimos repellendus doloribus assumenda, voluptatum molestiae
-            magni quas praesentium recusandae magnam ipsum veniam perferendis
-            quo ut deleniti optio voluptates aspernatur? Quod, incidunt? Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-            <br />
-            adipisci. Nisi, enim! Nisi repellendus consequatur quae
-            consequuntur, corporis sunt quis in pariatur tenetur totam, cum
-            ipsa, ea sint recusandae cupiditate?
+            {data.aboutMe.description}
           </p>
         </div>
       </div>
