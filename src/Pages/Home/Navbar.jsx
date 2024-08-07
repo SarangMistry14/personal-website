@@ -5,11 +5,12 @@ import { Link } from "react-scroll";
 function Navbar() {
   const [navActive, setNavActive] = useState(false);
 
-  //
-  const toggleNav = () => {
+  //toggle
+  const toggleNav = (e) => {
+    e.preventDefault();
     setNavActive(!navActive);
   };
-  //
+  //hide 
   const closeMenu = () => {
     setNavActive(false);
   };
@@ -18,7 +19,7 @@ function Navbar() {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth <= 500) {
-        closeMenu;
+        closeMenu();
       }
     };
     window.addEventListener("resize", handleResize);
@@ -28,21 +29,22 @@ function Navbar() {
     };
   }, []);
 
-  //
+  //for menu
   useEffect(() => {
     if (window.innerWidth <= 1200) {
-      closeMenu;
+      closeMenu();
     }
   }, []);
 
   // Return
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
-      <div>
-        <img className="navbar-logo" src="./img/logo.png" alt="logo" />
+      <div className="navbar-logo">
+        <img  src="./img/logo.png" alt="logo" />
       </div>
+      {/* hamburger menu */}
       <a
-        href=""
+        href="#"
         className={`nav_hamburger ${navActive ? "active" : ""}`}
         onClick={toggleNav}
       >
@@ -50,6 +52,7 @@ function Navbar() {
         <span className="nav_hamburger_line"></span>
         <span className="nav_hamburger_line"></span>
       </a>
+      {/* links */}
       <div className={`navbar-items ${navActive ? "active" : ""}`}>
         <ul>
           {/* home */}
@@ -95,7 +98,7 @@ function Navbar() {
               to="mySkills"
               className="navbar-content"
             >
-              MySkills
+              My Skills
             </Link>
           </li>
           <li>
@@ -112,7 +115,7 @@ function Navbar() {
               Portfolio
             </Link>
           </li>
-          {/* Testiminoals 
+          {/* Experience 
           <li>
             <Link
               onClick={closeMenu}
@@ -121,14 +124,15 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="Testiminoals"
+              to="Experience"
               className="navbar-content"
             >
-              Testiminoals
+              Experience
             </Link>
           </li> */}
         </ul>
       </div>
+      {/* button */}
       <Link
         onClick={closeMenu}
         activeClass="navbar-active-content"

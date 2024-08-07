@@ -1,22 +1,22 @@
 import React from "react";
 import HeroSection from "../HeroSection";
-import MySkill from "../MySkill";
+
 import AboutMe from "../AboutMe";
 import MyPortfolio from "../MyPortfolio";
 import ContactMe from "../ContactMe";
 import Footer from "../Footer";
-import AllSkills from "../AllSkills";
+import Skills from "../Skills";
 
 function Home() {
   return (
     <>
       <HeroSection />
       <AboutMe/> 
-      {/* <MySkill/> */}
-      <AllSkills/>
+      <Skills/>
       <MyPortfolio/>
       <ContactMe/>
-      <Footer/>
+      {/* <Footer/> */}
+      {/* <MySkill/> */}
     </>
   );
 }

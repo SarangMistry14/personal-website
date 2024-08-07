@@ -1,17 +1,22 @@
 import React from "react";
 import data from "../../data/index.json";
 function ContactMe() {
+  //
+  function handleSubmit() {
+    // e.preventDefault();
+    // console.log("here", e.target.value);
+  }
   return (
     <section id="Contact" className="contact-section">
       <div>
         <p className="sub-title">Get in touch</p>
         <h2>Contact Me</h2>
-        <p className="text-lg">
+        <p className="text-md">
           I'm always open to discussing new projects, creative ideas, and
           opportunities. Feel free to reach out!
         </p>
       </div>
-      <form className="contact-form-container">
+      <form className="contact-form-container" onSubmit={handleSubmit}>
         <div className="container">
           {/* first name */}
           <label htmlFor="first-name" className="contact-label">
@@ -50,6 +55,7 @@ function ContactMe() {
           <label htmlFor="phone-number" className="contact-label">
             <span className="text-md"> Phone-Number</span>
             <input
+              // change this
               type="number"
               className="contact-input text-md"
               name="phone-number"
@@ -71,7 +77,9 @@ function ContactMe() {
           </label>
         </div>
         <div>
-          <button className="btn btn-primary">Submit</button>
+          <button className="btn btn-primary" type="submit">
+            Submit
+          </button>
         </div>
       </form>
     </section>

@@ -3,55 +3,32 @@
         "description": "Passionate about building efficient and innovative web applications. Currently honing my skills in front-end and back-end development.Let's create something amazing together."
     },
     "aboutMe": {
-        "description": "Passionate about building efficient and innovative web applications. Currently honing my skills in front-end and back-end development.Let's create something amazing together."
+        "description": "Passionate about building efficient and innovative web applications. Currently honing my skills in front-end and back-end development.Let's create something amazing together.\n\nLorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis voluptatum rem beatae eaque, repudiandae animi quidem adipisci mollitia nemo aliquam, reiciendis, reprehenderit dolorem consequuntur placeat voluptate dignissimos corrupti sint harum?"
     },
-    "skills": [
-        {
-            "id": 1,
-            "src": "./img/product-chain-1.png",
-            "title": "FrontEnd",
-            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis voluptatum rem beatae eaque, repudiandae animi quidem adipisci mollitia nemo aliquam, reiciendis, reprehenderit dolorem consequuntur placeat voluptate dignissimos corrupti sint harum?"
-        },
-        {
-            "id": 2,
-            "src": "./img/product-chain-1.png",
-            "title": "FrontEnd",
-            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis voluptatum rem beatae eaque, repudiandae animi quidem adipisci mollitia nemo aliquam, reiciendis, reprehenderit dolorem consequuntur placeat voluptate dignissimos corrupti sint harum?"
-        },
-        {
-            "id": 3,
-            "src": "./img/product-chain-1.png",
-            "title": "FrontEnd",
-            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis voluptatum rem beatae eaque, repudiandae animi quidem adipisci mollitia nemo aliquam, reiciendis, reprehenderit dolorem consequuntur placeat voluptate dignissimos corrupti sint harum?"
-        },
-        {
-            "id": 4,
-            "src": "./img/product-chain-1.png",
-            "title": "FrontEnd",
-            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis voluptatum rem beatae eaque, repudiandae animi quidem adipisci mollitia nemo aliquam, reiciendis, reprehenderit dolorem consequuntur placeat voluptate dignissimos corrupti sint harum?"
-        }
-    ],
     "portfolio": [
         {
             "id": 1,
             "src": "./img/placeholder-image-1.png",
             "title": "FrontEnd",
-            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis voluptatum rem beatae eaque, repudiandae animi quidem adipisci mollitia nemo aliquam, reiciendis, reprehenderit dolorem consequuntur placeat voluptate dignissimos corrupti sint harum?",
-            "link": "View in GitHub"
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis voluptatum rem beatae eaque, repudiandae animi quidem adipisci mollitia nemo aliquam, reiciendis, reprehenderit dolorem consequuntur placeat voluptate dignissimos corrupti sint harum?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis voluptatum rem beatae eaque, repudiandae animi quidem adipisci mollitia nemo aliquam, reiciendis, reprehenderit dolorem consequuntur placeat voluptate dignissimos corrupti sint harum?",
+            "link": "View in GitHub",
+            "url": "https://www.linkedin.com"
         },
         {
             "id": 2,
             "src": "./img/placeholder-image-1.png",
             "title": "FrontEnd",
             "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis voluptatum rem beatae eaque, repudiandae animi quidem adipisci mollitia nemo aliquam, reiciendis, reprehenderit dolorem consequuntur placeat voluptate dignissimos corrupti sint harum?",
-            "link": "View in GitHub"
+            "link": "View in GitHub",
+            "url": "https://www.google.com"
         },
         {
             "id": 3,
             "src": "./img/placeholder-image-1.png",
             "title": "FrontEnd",
             "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis voluptatum rem beatae eaque, repudiandae animi quidem adipisci mollitia nemo aliquam, reiciendis, reprehenderit dolorem consequuntur placeat voluptate dignissimos corrupti sint harum?",
-            "link": "View in GitHub"
+            "link": "View in GitHub",
+            "url": "https://www.google.com"
         }
     ]
 }
