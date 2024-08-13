@@ -40,18 +40,9 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div className="navbar-logo">
-      <Link
-              onClick={closeMenu}
-              activeClass="navbar-active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="heroSection"
-              className="navbar-content"
-            >
-              <img src="./img/logo.png" alt="logo" />
-            </Link>
+        <Link spy={true} smooth={true} offset={-70} duration={500} to="heroSection">
+          <img src="./img/logo.png" alt="logo" />
+        </Link>
       </div>
       {/* hamburger menu */}
       <a
@@ -69,11 +60,14 @@ function Navbar() {
           {/* home */}
           <li>
             <Link
+              onClick={closeMenu}
+              activeClass="navbar-active-content"
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
-              to="home"
+              to="heroSection"
+              className="navbar-content"
             >
               Home
             </Link>
