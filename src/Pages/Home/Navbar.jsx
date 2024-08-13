@@ -10,7 +10,7 @@ function Navbar() {
     e.preventDefault();
     setNavActive(!navActive);
   };
-  //hide 
+  //hide
   const closeMenu = () => {
     setNavActive(false);
   };
@@ -40,7 +40,18 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div className="navbar-logo">
-        <img  src="./img/logo.png" alt="logo" />
+      <Link
+              onClick={closeMenu}
+              activeClass="navbar-active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="heroSection"
+              className="navbar-content"
+            >
+              <img src="./img/logo.png" alt="logo" />
+            </Link>
       </div>
       {/* hamburger menu */}
       <a
@@ -58,14 +69,11 @@ function Navbar() {
           {/* home */}
           <li>
             <Link
-              onClick={closeMenu}
-              activeClass="navbar-active-content"
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
-              to="heroSection"
-              className="navbar-content"
+              to="home"
             >
               Home
             </Link>
