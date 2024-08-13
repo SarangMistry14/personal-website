@@ -61,7 +61,7 @@ function ContactMe() {
       setLoading(false);
     } else {
       // Submit the form
-      console.log(formData);
+      // console.log(formData);
       setErrors({});
       //* submit here
       // api here
@@ -82,7 +82,7 @@ function ContactMe() {
           process.env.REACT_APP_EMAILJS_PUBLIC_KEY
         )
         .then((res) => {
-          console.log(res);
+          // console.log(res);
           setLoading(false);
           // add annimation here for success
           setSuccess(true);
@@ -93,12 +93,12 @@ function ContactMe() {
             phoneNumber: "",
             message: "",
           });
-          alert("Form submitted successfully!");
-          setTimeout(() => setSuccess(false), 5000);
+          // alert("Form submitted successfully!");
+          setTimeout(() => setSuccess(false), 7000);
         })
         .catch((error) => {
-          console.error(error);
-          alert("Error submitting the form. Please try again later.");
+          // console.error(error);
+          // alert("Error submitting the form. Please try again later.");
           setLoading(false);
         });
     }
