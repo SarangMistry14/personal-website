@@ -23,7 +23,7 @@ function HeroSection() {
     <section id="heroSection" className="hero-section">
       <div className="hero-section-content-box">
         <div className="hero-section-content">
-          <p className="section-title">Hey I'm Sarang</p>
+          <p className="section-title">Hey I'm Sarang Mistry</p>
           <h1 className="hero-section-title">
             <span className="hero-section-title-color">Software</span> <br />
             Developer

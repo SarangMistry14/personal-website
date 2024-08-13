@@ -341,7 +341,7 @@ h3 {
 /*! About section */
 .about-section {
   display: grid;
-  height: 100vh;
+  min-height: 100vh;
   padding: 133.3px 85.3px;
   align-items: center;
   justify-content: center;
@@ -443,6 +443,9 @@ h3 {
   }
 
   .skillBox>p {
+    display: none;
+  }
+  .git-btn-text{
     display: none;
   }
 
@@ -625,18 +628,22 @@ h3 {
   display: flex;
   padding: 32px 0px;
 }
-.error-text{
+
+.error-text {
   color: red;
 }
+
 .success-icon {
   color: green;
-  font-size: 25px; 
-  margin-bottom: 10px; 
+  font-size: 25px;
+  margin-bottom: 10px;
 }
+
 .success-message {
   padding-bottom: 32px;
 
 }
+
 /* ? contaction section ends */
 
 /* * ------------------------------------------------------------------------ */
@@ -702,17 +709,21 @@ h3 {
     padding: 90px 80px 30px;
     align-items: center;
     gap: 20px;
-    padding-bottom: auto;
+    padding-bottom: 90px;
     /* padding-top: 0;
     padding-bottom: 0; */
   }
 
-
+  .section-heading {
+    text-align: center;
+  }
+  
   .hero-section-title,
-  /* .skills-section-heading, */
-  .sections-heading {
+  .skills-section-heading,
+  .section-heading {
     font-size: 35px;
     line-height: 40px;
+    text-align: center;
   }
 
   .hero-section-content-box {
@@ -824,3 +835,10 @@ h3 {
 
 /* ?Responsive Screens Ends*/
 /* * ------------------------------------------------------------------------ */
+
+@media screen and (max-width:412px) {
+  .section-heading {
+    font-size: 35px;
+  }
+
+}

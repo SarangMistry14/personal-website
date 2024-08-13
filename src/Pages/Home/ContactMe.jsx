@@ -107,7 +107,7 @@ function ContactMe() {
     <section id="Contact" className="contact-section">
       <div>
         <p className="sub-title">Get in touch</p>
-        <h2>Contact Me</h2>
+        <h2 className="section-heading">Contact Me</h2>
         <p className="text-md">
           I'm always open to discussing new projects, creative ideas, and
           opportunities. Feel free to reach out!

@@ -36,7 +36,7 @@ function MyPortfolio() {
                 fill="currentColor"
               ></path>
             </svg>
-            Visit My GitHub
+            <span className="git-btn-text">Visit My GitHub</span>
           </a>
         </div>
       </div>
