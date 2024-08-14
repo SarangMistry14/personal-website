@@ -3,7 +3,7 @@
         "description": "Passionate about leveraging technology to build impactful solutions. With a focus on Web Development, Artificial Intelligence, and Data Science, I’m dedicated to exploring new possibilities and creating innovative applications. Let’s work together to bring exciting ideas to life"
     },
     "aboutMe": {
-        "description": "Hello! I'm Sarang Mistry, a Computer Science student at the University of Houston, set to graduate in December 2024. My journey in technology is driven by a passion for innovation and a commitment to excellence. I explore various domains, including web development, data science, and artificial intelligence. Beyond coding, I’m a dedicated tutor at the University of Houston, where I help students master programming concepts and improve their problem-solving skills. I’m excited to apply my skills and knowledge to real-world challenges and contribute to innovative projects. Feel free to explore my portfolio to see some of the work I’ve done and connect with me to discuss potential collaborations or opportunities."
+        "description": "Hello! I'm Sarang Mistry, a Computer Science student at the University of Houston, set to graduate in December 2024. My journey in technology is driven by a passion for innovation and a commitment to excellence. I explore various domains, including Web Development, Data Science, and Artificial Intelligence. Beyond coding, I’m a dedicated Tutor at the University of Houston, where I help students master programming concepts and improve their problem-solving skills. I’m excited to apply my skills and knowledge to real-world challenges and contribute to innovative projects. Feel free to explore my portfolio to see some of the work I’ve done and connect with me to discuss potential collaborations or opportunities."
     },
     "portfolio": [
         {
@@ -26,7 +26,7 @@
         {
             "id": 3,
             "src": "./img/placeholder-image-3.png",
-            "title": "Inverntory Mannagement System",
+            "title": "Inventory Mannagement System",
             "description": "Developed an Inventory Management System focused on efficiently storing and managing users' inventory. The frontend is crafted with Next.js and Material UI, providing a seamless and user-friendly interface. For secure authentication and robust database management, I integrated Firebase, ensuring that users can easily store, update, and manage their inventory data.",
             "link": "View in GitHub",
             "url": "https://www.google.com"
