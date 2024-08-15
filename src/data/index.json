@@ -26,7 +26,7 @@
         {
             "id": 3,
             "src": "./img/placeholder-image-3.png",
-            "title": "Inventory Mannagement System",
+            "title": "Inventory Management System",
             "description": "Developed an Inventory Management System focused on efficiently storing and managing users' inventory. The frontend is crafted with Next.js and Material UI, providing a seamless and user-friendly interface. For secure authentication and robust database management, I integrated Firebase, ensuring that users can easily store, update, and manage their inventory data.",
             "link": "View in GitHub",
             "url": "https://www.google.com"
