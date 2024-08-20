@@ -419,20 +419,22 @@ h3 {
 
 /* this is a grid that holds all the skill tab */
 .skillGroup {
-  display: grid;
-  /* setting up the rows */
-  grid-template-columns: repeat(auto-fit, minmax(120px, 140px));
-  grid-gap: 15px;
-  margin: 0 auto;
-  width: 100%;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin: 0;
+  /* width: 100%; */
   justify-content: center;
+  align-content: center;
 }
 
 .box {
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  justify-content: center;
+  width: 140px;
+  height: 120px;
   border: 1px solid var(--primary);
   border-radius: 10px;
   background: var(--white);
@@ -444,9 +446,10 @@ h3 {
 
 /* hiding the description */
 @media screen and (max-width: 465px) {
-  .skillGroup {
-    grid-template-columns: repeat(2, minmax(100px, 140px));
-    /* width: 10px; */
+
+  .box {
+    width: 100px;
+    height: 100px;
   }
 
   .skillBox>p {
@@ -561,7 +564,8 @@ h3 {
   gap: 32px;
   align-self: stretch;
 }
-.portfolio-section-card-content>div > h3{
+
+.portfolio-section-card-content>div>h3 {
   text-align: left;
 }
 
@@ -857,20 +861,25 @@ h3 {
   .section-heading {
     font-size: 35px;
   }
-  .portfolio-section-card-content{
+
+  .portfolio-section-card-content {
     text-align: center;
   }
-  .portfolio-section-card{
+
+  .portfolio-section-card {
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
-  .portfolio-section-card:hover{
+
+  .portfolio-section-card:hover {
     transform: none;
   }
-  .portfolio-section-card-content>div > h3{
+
+  .portfolio-section-card-content>div>h3 {
     text-align: center;
   }
-  .portfolio-section-img{
+
+  .portfolio-section-img {
     display: none;
   }
 }
