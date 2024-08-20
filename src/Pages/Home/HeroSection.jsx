@@ -1,24 +1,20 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import { Link } from "react-scroll";
 import data from "../../data/index.json";
 function HeroSection() {
   //
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const handleButtonClick = () => {
-    navigate("/Contact");
-  };
+  // const handleButtonClick = () => {
+  //   navigate("/Contact");
+  // };
 
   const handleDownload = () => {
-    const link = document.createElement("a");
-    link.href = `${process.env.PUBLIC_URL}/Resume.pdf`; // Replace 'your-file.pdf' with the name of your PDF file
-    link.download = "Sarang-Resume.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    const url = `${process.env.PUBLIC_URL}/Sarang_Resume.pdf`; // Replace 'Resume.pdf' with the name of your PDF file
+    window.open(url, '_blank');
   };
-
+  
   return (
     <section id="heroSection" className="hero-section">
       <div className="hero-section-content-box">

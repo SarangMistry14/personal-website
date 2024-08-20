@@ -1,16 +1,24 @@
 {
     "heroSection": {
-        "description": "Passionate about leveraging technology to build impactful solutions. With a focus on Web Development, Artificial Intelligence, and Data Science, I’m dedicated to exploring new possibilities and creating innovative applications. Let’s work together to bring exciting ideas to life"
+        "description": "Passionate about leveraging technology to build impactful solutions. With a focus on Web Development, Artificial Intelligence, and Data Science, I’m dedicated to exploring new possibilities and creating innovative applications. Let’s work together to bring exciting ideas to life."
     },
     "aboutMe": {
         "description": "Hello! I'm Sarang Mistry, a Computer Science student at the University of Houston, set to graduate in December 2024. My journey in technology is driven by a passion for innovation and a commitment to excellence. I explore various domains, including Web Development, Data Science, and Artificial Intelligence. Beyond coding, I’m a dedicated Tutor at the University of Houston, where I help students master programming concepts and improve their problem-solving skills. I’m excited to apply my skills and knowledge to real-world challenges and contribute to innovative projects. Feel free to explore my portfolio to see some of the work I’ve done and connect with me to discuss potential collaborations or opportunities."
     },
     "portfolio": [
         {
+            "id": 4,
+            "src": "./img/CardGenAI.png",
+            "title": "CardGenAI",
+            "description": "Developed a flashcard creation app with manual entry, text generation, PDF uploads, and YouTube links via OpenAI API. Features include a tiered subscription model with Stripe, and it’s built with TypeScript, Firebase for secure authentication and database management, and ShadCN for a modern, responsive UI.",
+            "link": "View in GitHub",
+            "url": "https://github.com/abdullahsal702/ai-flashcards"
+        },
+        {
             "id": 1,
             "src": "./img/placeholder-image-2.png",
             "title": "AI Chat Bot",
-            "description": "Developed a web application where users can chat with AI-powered personalized assistants that act as a nutritionist, personal trainer, and sports coach. The frontend was built using Next.js, Tailwind CSS, and Radix UI, with Supabase handling authentication and database management.",
+            "description": "Developed a web application where users can chat with AI-powered personalized assistants that act as a nutritionist, personal trainer, and sports coach. The frontend was built using Next JS, Tailwind CSS, and Shadcn, with Supabase handling authentication and database management.",
             "link": "View in GitHub",
             "url": "https://github.com/SarangMistry14/ai-chat-bot"
         },
@@ -19,7 +27,7 @@
             "id": 2,
             "src": "./img/placeholder-image-1.png",
             "title": "Fuel Quote Application ",
-            "description": "Application that predicts fuel rates based on user criteria. It features a responsive design using Next.js, TypeScript, and Tailwind CSS. Authentication is handled with NextAuth.js, while the backend uses, Express.js, and Prisma ORM with Vercel Postgres for secure data management.",
+            "description": "Application that predicts fuel rates based on user criteria. It features a responsive design using Next.js, TypeScript, and Tailwind CSS. Authentication is handled with NextAuth.js, while the backend uses Express JS, and Prisma ORM with Vercel Postgres for secure data management.",
             "link": "View in GitHub",
             "url": "https://github.com/AyushPatel815/SD-G55"
         },
@@ -29,7 +37,7 @@
             "title": "Inventory Management System",
             "description": "Developed an Inventory Management System focused on efficiently storing and managing users' inventory. The frontend is crafted with Next.js and Material UI, providing a seamless and user-friendly interface. For secure authentication and robust database management, I integrated Firebase, ensuring that users can easily store, update, and manage their inventory data.",
             "link": "View in GitHub",
-            "url": "https://www.google.com"
+            "url": "https://github.com/SarangMistry14/inventory-management-system"
         }
     ]
 }

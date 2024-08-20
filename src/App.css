@@ -554,11 +554,15 @@ h3 {
   display: flex;
   padding: 32px;
   flex-grow: 1;
+  text-align: justify;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
   gap: 32px;
   align-self: stretch;
+}
+.portfolio-section-card-content>div > h3{
+  text-align: left;
 }
 
 .portfolio-section-title {
@@ -849,9 +853,24 @@ h3 {
 /* ?Responsive Screens Ends*/
 /* * ------------------------------------------------------------------------ */
 
-@media screen and (max-width:412px) {
+@media screen and (max-width:414px) {
   .section-heading {
     font-size: 35px;
   }
-
+  .portfolio-section-card-content{
+    text-align: center;
+  }
+  .portfolio-section-card{
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  .portfolio-section-card:hover{
+    transform: none;
+  }
+  .portfolio-section-card-content>div > h3{
+    text-align: center;
+  }
+  .portfolio-section-img{
+    display: none;
+  }
 }

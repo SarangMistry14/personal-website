@@ -186,6 +186,8 @@ function Skills() {
             </svg>
             <p>Next JS</p>
           </div>
+          {/* material ui */}
+          {/* ShadCn */}
         </div>
         {/* backend */}
         <h3 className="skillGroupTitle">Back-End and Databases</h3>
@@ -202,7 +204,7 @@ function Skills() {
             >
               <path d="M49.729 11h-.85c-1.051 0-2.041.49-2.68 1.324l-8.7 11.377-8.7-11.377C28.162 11.49 27.171 11 26.121 11h-.85l10.971 14.346L25.036 40h.85c1.051 0 2.041-.49 2.679-1.324L37.5 26.992l8.935 11.684C47.073 39.51 48.063 40 49.114 40h.85L38.758 25.346 49.729 11zM21.289 34.242c-2.554 3.881-7.582 5.87-12.389 4.116C4.671 36.815 2 32.611 2 28.109L2 27h12v0h11l0-4.134c0-6.505-4.818-12.2-11.295-12.809C6.273 9.358 0 15.21 0 22.5l0 5.573c0 5.371 3.215 10.364 8.269 12.183 6.603 2.376 13.548-1.17 15.896-7.256 0 0 0 0 0 0h-.638C22.616 33 21.789 33.481 21.289 34.242zM2 22.5C2 16.71 6.71 12 12.5 12S23 16.71 23 22.5V25H2V22.5z"></path>
             </svg>
-            <p>Exrpess JS</p>
+            <p>Express JS</p>
           </div>
           {/* Django */}
           <div className="box skillBox">
@@ -356,6 +358,160 @@ function Skills() {
               ></path>
             </svg>
             <p>PostgreSQL</p>
+          </div>
+          {/* Supabase */}
+          <div className="box skillBox">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="0.98em"
+              height="1em"
+              viewBox="0 0 256 263"
+            >
+              <defs>
+                <linearGradient
+                  id="logosSupabaseIcon0"
+                  x1="20.862%"
+                  x2="63.426%"
+                  y1="20.687%"
+                  y2="44.071%"
+                >
+                  <stop offset="0%" stopColor="#249361" />
+                  <stop offset="100%" stopColor="#3ecf8e" />
+                </linearGradient>
+                <linearGradient
+                  id="logosSupabaseIcon1"
+                  x1="1.991%"
+                  x2="21.403%"
+                  y1="-13.158%"
+                  y2="34.708%"
+                >
+                  <stop offset="0%" />
+                  <stop offset="100%" stopOpacity="0" />
+                </linearGradient>
+              </defs>
+              <path
+                fill="url(#logosSupabaseIcon0)"
+                d="M149.602 258.579c-6.718 8.46-20.338 3.824-20.5-6.977l-2.367-157.984h106.229c19.24 0 29.971 22.223 18.007 37.292z"
+              />
+              <path
+                fill="url(#logosSupabaseIcon1)"
+                fillOpacity="0.2"
+                d="M149.602 258.579c-6.718 8.46-20.338 3.824-20.5-6.977l-2.367-157.984h106.229c19.24 0 29.971 22.223 18.007 37.292z"
+              />
+              <path
+                fill="#3ecf8e"
+                d="M106.399 4.37c6.717-8.461 20.338-3.826 20.5 6.976l1.037 157.984H23.037c-19.241 0-29.973-22.223-18.008-37.292z"
+              />
+            </svg>
+            <p>Supabase</p>
+          </div>
+          {/* Firebase */}
+          <div className="box skillBox">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="256"
+              height="351"
+              viewBox="0 0 256 351"
+            >
+              <defs>
+                <filter
+                  id="logosFirebase0"
+                  width="200%"
+                  height="200%"
+                  x="-50%"
+                  y="-50%"
+                  filterUnits="objectBoundingBox"
+                >
+                  <feGaussianBlur
+                    in="SourceAlpha"
+                    result="shadowBlurInner1"
+                    stdDeviation="17.5"
+                  />
+                  <feOffset in="shadowBlurInner1" result="shadowOffsetInner1" />
+                  <feComposite
+                    in="shadowOffsetInner1"
+                    in2="SourceAlpha"
+                    k2="-1"
+                    k3="1"
+                    operator="arithmetic"
+                    result="shadowInnerInner1"
+                  />
+                  <feColorMatrix
+                    in="shadowInnerInner1"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"
+                  />
+                </filter>
+                <filter
+                  id="logosFirebase1"
+                  width="200%"
+                  height="200%"
+                  x="-50%"
+                  y="-50%"
+                  filterUnits="objectBoundingBox"
+                >
+                  <feGaussianBlur
+                    in="SourceAlpha"
+                    result="shadowBlurInner1"
+                    stdDeviation="3.5"
+                  />
+                  <feOffset
+                    dx="1"
+                    dy="-9"
+                    in="shadowBlurInner1"
+                    result="shadowOffsetInner1"
+                  />
+                  <feComposite
+                    in="shadowOffsetInner1"
+                    in2="SourceAlpha"
+                    k2="-1"
+                    k3="1"
+                    operator="arithmetic"
+                    result="shadowInnerInner1"
+                  />
+                  <feColorMatrix
+                    in="shadowInnerInner1"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.09 0"
+                  />
+                </filter>
+                <path
+                  id="logosFirebase2"
+                  d="m1.253 280.732l1.605-3.131l99.353-188.518l-44.15-83.475C54.392-1.283 45.074.474 43.87 8.188z"
+                />
+                <path
+                  id="logosFirebase3"
+                  d="m134.417 148.974l32.039-32.812l-32.039-61.007c-3.042-5.791-10.433-6.398-13.443-.59l-17.705 34.109l-.53 1.744z"
+                />
+              </defs>
+              <path
+                fill="#FFC24A"
+                d="m0 282.998l2.123-2.972L102.527 89.512l.212-2.017L58.48 4.358C54.77-2.606 44.33-.845 43.114 6.951z"
+              />
+              <use fill="#FFA712" fillRule="evenodd" href="#logosFirebase2" />
+              <use filter="url(#logosFirebase0)" href="#logosFirebase2" />
+              <path
+                fill="#F4BD62"
+                d="m135.005 150.38l32.955-33.75l-32.965-62.93c-3.129-5.957-11.866-5.975-14.962 0L102.42 87.287v2.86z"
+              />
+              <use fill="#FFA50E" fillRule="evenodd" href="#logosFirebase3" />
+              <use filter="url(#logosFirebase1)" href="#logosFirebase3" />
+              <path
+                fill="#F6820C"
+                d="m0 282.998l.962-.968l3.496-1.42l128.477-128l1.628-4.431l-32.05-61.074z"
+              />
+              <path
+                fill="#FDE068"
+                d="m139.121 347.551l116.275-64.847l-33.204-204.495c-1.039-6.398-8.888-8.927-13.468-4.34L0 282.998l115.608 64.548a24.126 24.126 0 0 0 23.513.005"
+              />
+              <path
+                fill="#FCCA3F"
+                d="M254.354 282.16L221.402 79.218c-1.03-6.35-7.558-8.977-12.103-4.424L1.29 282.6l114.339 63.908a23.943 23.943 0 0 0 23.334.006z"
+              />
+              <path
+                fill="#EEAB37"
+                d="M139.12 345.64a24.126 24.126 0 0 1-23.512-.005L.931 282.015l-.93.983l115.607 64.548a24.126 24.126 0 0 0 23.513.005l116.275-64.847l-.285-1.752z"
+              />
+            </svg>
+            <p>Firebase</p>
           </div>
         </div>
         {/* other Skills  */}
