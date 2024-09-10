@@ -7,20 +7,36 @@
     },
     "portfolio": [
         {
+            "id": 6,
+            "src": "./img/Contribu.png",
+            "title": "Contribu",
+            "description": "Designed and developed Contribu, a platform that enables students to collaborate on projects and share ideas seamlessly. With a focus on user experience and inclusivity, the platform was built using Next.js, ShadCN, Tailwind CSS, Supabase, and Resend Email, supporting over 1,000 concurrent users.",
+            "link": "View Website",
+            "url": "https://www.contribu.dev/"
+        },
+        {
+            "id": 5,
+            "src": "./img/UniMatch.png",
+            "title": "UniMatch",
+            "description": "Developed a Retrieval Augmented Generation (RAG) chat app that provides detatiled insights about Universities based on user query. Used Python with Beautiful Soup and Requests for web scraping, embedded data with OpenAI, and stored it in Pinecone for efficient semantic search.",
+            "link": "View Website",
+            "url": "https://unimat-ch.vercel.app/"
+        },
+        {
             "id": 4,
             "src": "./img/CardGenAI.png",
             "title": "CardGenAI",
             "description": "Developed a flashcard creation app with manual entry, text generation, PDF uploads, and YouTube links via OpenAI API. Features include a tiered subscription model with Stripe, and it’s built with TypeScript, Firebase for secure authentication and database management, and ShadCN for a modern, responsive UI.",
-            "link": "View in GitHub",
-            "url": "https://github.com/abdullahsal702/ai-flashcards"
+            "link": "View Website",
+            "url": "https://card-genai.vercel.app/"
         },
         {
-            "id": 1,
+            "id": 3,
             "src": "./img/placeholder-image-2.png",
             "title": "AI Chat Bot",
             "description": "Developed a web application where users can chat with AI-powered personalized assistants that act as a nutritionist, personal trainer, and sports coach. The frontend was built using Next JS, Tailwind CSS, and Shadcn, with Supabase handling authentication and database management.",
-            "link": "View in GitHub",
-            "url": "https://github.com/SarangMistry14/ai-chat-bot"
+            "link": "View Website",
+            "url": "https://sweat-ai.vercel.app/"
         },
         {
             
@@ -32,10 +48,10 @@
             "url": "https://github.com/AyushPatel815/SD-G55"
         },
         {
-            "id": 3,
+            "id": 1,
             "src": "./img/placeholder-image-3.png",
             "title": "Inventory Management System",
-            "description": "Developed an Inventory Management System focused on efficiently storing and managing users' inventory. The frontend is crafted with Next.js and Material UI, providing a seamless and user-friendly interface. For secure authentication and robust database management, I integrated Firebase, ensuring that users can easily store, update, and manage their inventory data.",
+            "description": "Developed an Inventory Management System designed for efficient inventory storage and management. The frontend, crafted with Next.js and Material UI, offers a seamless, user-friendly interface. Integrated Firebase for secure authentication and robust database management, allowing users to easily store, update, and manage their inventory data.",
             "link": "View in GitHub",
             "url": "https://github.com/SarangMistry14/inventory-management-system"
         }

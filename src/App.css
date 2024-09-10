@@ -524,7 +524,7 @@ h3 {
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   min-height: 288px;
-  object-fit: cover;
+  object-fit: fill;
   width: 100%;
 }
 
